@@ -112,7 +112,7 @@ class _RegisterViewState extends State<RegisterView> {
                 const SizedBox(height: 32),
                 Center(
                   child: TextButton(
-                    onPressed: () => Get.toNamed(Routes.LOGIN),
+                    onPressed: () => Get.toNamed(Routes.OTP_VERIFICATION),
                     child: const Text.rich(
                       TextSpan(
                         text: "Already have an account? ",

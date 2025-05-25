@@ -2,7 +2,7 @@
     <application
         android:usesCleartextTraffic="true"
         
-        android:label="smartsmash"
+        android:label="analyzer"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

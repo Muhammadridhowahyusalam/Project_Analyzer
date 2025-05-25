@@ -72,6 +72,30 @@ class _LoginViewState extends State<LoginView> {
                       ),
                     ),
                   ),
+                  const SizedBox(height: 16),
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                      icon: Image.asset(
+                        'assets/google.png', // pastikan file ini ada
+                        height: 24,
+                      ),
+                      label: const Text(
+                        'Login with Google',
+                        style: TextStyle(color: Colors.black, fontSize: 16),
+                      ),
+                      onPressed: () {
+                        controller.loginWithGoogle();
+                      },
+                    ),
+                  ),
                   const SizedBox(height: 40),
                   TextButton(
                     onPressed: () => Get.toNamed(Routes.REGISTER),

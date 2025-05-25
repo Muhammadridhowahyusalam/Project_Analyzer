@@ -14,7 +14,10 @@ class RegisterController extends GetxController {
           result['message'] ?? 'Registrasi berhasil, silakan login.';
       Get.snackbar("Berhasil", message);
 
-      Get.offAllNamed(Routes.LOGIN);
+      Get.offAllNamed(
+        Routes.OTP_VERIFICATION,
+        arguments: {'email': email},
+      );
     } catch (e) {
       Get.snackbar(
         "Registrasi Gagal",

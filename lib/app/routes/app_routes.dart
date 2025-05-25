@@ -9,4 +9,7 @@ abstract class Routes {
   static const EDIT_PROFILE = '/edit-profile';
   static const INFORMASI = '/informasi';
   static const INFORMASI_DETAIL = '/informasi/detail';
+  static const OTP_SCREEN = '/otp-screen';
+  static const OTP_VERIFKASI = '/otp-verifkasi';
+  static const OTP_VERIFICATION = '/otp-verification';
 }

@@ -1,15 +1,16 @@
 name: snack_analyzer
 description: A new Flutter project.
-publish_to: 'none' # This is so the project won't be published to pub.dev
+publish_to: 'none' # agar tidak dipublish ke pub.dev
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.1
+  sdk: ">=3.6.1 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+
   cupertino_icons: ^1.0.8
   get: ^4.6.5
   get_storage: ^2.0.3
